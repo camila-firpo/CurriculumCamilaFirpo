@@ -1,12 +1,10 @@
 .cv-body {
 	display: inline-block;
-    color: black;
-    position: right;
+	color: black;
+	position: right;
 }
 
 .content-title {
-	color: #3f2b96;
+	color: #2980b9;
 	font-style: italic;
-	
-
 }

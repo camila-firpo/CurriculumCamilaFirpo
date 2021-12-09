@@ -1,11 +1,11 @@
 .xp {
-    display: inline-block;
-    color: black;
-    position: relative;
-    flex-direction: column;
-    }
+	display: inline-block;
+	color: black;
+	position: relative;
+	flex-direction: column;
+}
 
 .content-title {
-    color: #3f2b96;
+	color: #2980b9;
 	font-style: italic;
 }
