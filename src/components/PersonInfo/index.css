@@ -1,43 +1,46 @@
 .estilo {
-  -webkit-box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
-  box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  width: 28%;
-  margin-right: -320px;
-  color: #fff !important;
-  height: 100vh;
-  background: #a8c0ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #3f2b96,
-    #a8c0ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #3f2b96,
-    #a8c0ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
+	box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	width: 28%;
+	margin-right: -320px;
+	color: #fff !important;
+	height: 100vh;
+	background: #2980b9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#ffffff,
+		#6dd5fa,
+		#2980b9
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#2980b9,
+		#6dd5fa,
+		#ffffff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .image {
-  height: 150px;
-  border-radius: 50%;
-  margin-top: 50px;
-  box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
+	height: 150px;
+	width: 210px;
+	border-radius: 50%;
+	margin-top: 50px;
+	box-shadow: 4px 0 5px -2px rgb(94 94 94 / 81%);
 }
 
 .name {
-  text-transform: uppercase;
-  color: white;
+	text-transform: uppercase;
+	color: white;
 }
 
 .data {
-  color: "#fff";
-  text-align: left;
-  margin-left: 20px;
-  margin-top: -20px;
+	color: "#fff";
+	text-align: left;
+	margin-left: 20px;
+	margin-top: -20px;
 }
 
 /* .button {

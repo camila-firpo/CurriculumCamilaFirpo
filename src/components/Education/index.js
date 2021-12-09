@@ -6,8 +6,8 @@ export default class Education extends Component {
 		return (
 			<div className="cv-body">
 				<h1 className="content-title">Educación</h1>
-				<p>Finalizado</p>
-				
+				<br/>
+						
 				
 			</div>
 			)

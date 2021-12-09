@@ -6,7 +6,7 @@ export default class References extends Component {
         return (
             <div className='personal-references'>
                 <h1 className = 'references-title'>Referencias profesionales</h1>
-
+                <br></br>
             </div>
 
         )

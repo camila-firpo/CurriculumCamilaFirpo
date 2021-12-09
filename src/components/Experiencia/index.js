@@ -6,7 +6,7 @@ export default class Experiencia extends Component {
         return (
             <div  className= 'xp'>
                 <h1 className= 'content-title'>Experiencia</h1>
-                <p>finalizado </p>
+                <br></br>
             </div>
         )
     }

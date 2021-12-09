@@ -9,9 +9,8 @@ export default class PersonInfo extends Component {
 	render() {
 		return (
 			<div className="estilo">
-				<img src="DSC_2209.JPG" className="image"/>
+				<img src="images/ProfilePicture.jpg" className="image"/>
 				<h1 className="name">Camila Firpo </h1>
-				<h3>Auxiliar Contable</h3>
 				<br/>
 				<div className="data">
 					<p>Celular: 099094726</p>
