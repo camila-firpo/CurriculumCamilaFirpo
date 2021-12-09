@@ -1,0 +1,11 @@
+.personal-references {
+    display: inline-block;
+    color: black;
+    position: relative;
+    flex-direction: column;
+}
+
+.references-title {
+    color: #3f2b96;
+	font-style: italic;
+}
