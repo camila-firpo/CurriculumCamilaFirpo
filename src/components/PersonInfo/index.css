@@ -38,12 +38,7 @@
 
 .data {
 	color: "#fff";
-	text-align: left;
+	text-align: center;
 	margin-left: 20px;
 	margin-top: -20px;
 }
-
-/* .button {
-	color: blue;
-	border-radius:40%;
-} */
