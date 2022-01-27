@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './index.css';
+import Box from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
 export default class Experiencia extends Component {
     render() {
         return (
-            <div  className= 'xp'>
-                <h1 className= 'content-title'>Experiencia</h1>
-                <br></br>
-            </div>
+            <Box>
+                <Typography variant="h4">Experiencia</Typography>               
+            </Box>
         )
     }
 }
