@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import Experiencia from '../Experiencia';
 import Education from '../Education';
 import References from '../References';
-import './index.css';
+import Box from '@mui/material/Box';
 
 export default class Contents extends Component {
 	render() {
 		return (
-            <div className="asd">
+            <Box>
                 <Education/>
                 <Experiencia/>
                 <References/>
-            </div>
+            </Box>
         )
 			
 	}

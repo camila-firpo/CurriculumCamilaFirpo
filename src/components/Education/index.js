@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import './index.css';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 export default class Education extends Component {
 	render() {
 		return (
-			<div className="cv-body">
-				<h1 className="content-title">Educación</h1>
-				<br/>
-						
-				
-			</div>
-			)
+			<Box>
+				<Typography variant="h4">Educación</Typography>			
+			</Box>
+		)
 	}
 }
