@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import Experiencia from '../Experiencia';
+import React from 'react';
+import Box from '@mui/material/Box';
+import Experience from '../Experience';
 import Education from '../Education';
 import References from '../References';
-import Box from '@mui/material/Box';
 
-export default class Contents extends Component {
-	render() {
-		return (
-            <Box>
-                <Education/>
-                <Experiencia/>
-                <References/>
-            </Box>
-        )
-			
-	}
+function Contents() {
+  return (
+    <Box>
+      <Education />
+      <Experience />
+      <References />
+    </Box>
+  );
 }
+
+export default Contents;
