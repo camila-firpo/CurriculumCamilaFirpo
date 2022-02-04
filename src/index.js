@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { ThemeProvider , createTheme } from '@mui/material/styles';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#286c79', // verde osc
+      light: '#b2dfdb' // verde claro 
+    },
+    secondary: {
+      main:'#bdbdbd', // gris
+      light: '#e0f7fa', // blanco
+      dark: '#424242' // gris oscuro
+    },
+  },
+});
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
