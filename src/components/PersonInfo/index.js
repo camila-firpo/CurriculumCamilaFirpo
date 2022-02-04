@@ -14,7 +14,8 @@ function PersonInfo() {
       <Box sx={{
 			  textAlign: 'center',
 			  height: '100vh',
-			  background: '#127384',
+			  bgcolor: 'primary.main',
+        typography: 'body1'
       }}
       >
         <Box sx={{ display: 'flex', justifyContent: 'center', py: 1 }}>
@@ -22,51 +23,51 @@ function PersonInfo() {
         </Box>
         <Box sx={{ display: 'inline-block', justifyContent: 'center' }}>
           <Box sx={{ marginBottom: 1 }}>
-            <Typography variant="h4">Camila Firpo </Typography>
+            <Typography variant="h4" color='primary.light'>Camila Firpo </Typography>
           </Box>
           <Box sx={{ display: 'flex', marginBottom: 1 }}>
             <Box sx={{ marginRight: 1 }}>
-              <LocalPhoneIcon />
+              <LocalPhoneIcon sx={{ color:'primary.light'}}/>
             </Box>
-            <Typography variant="body1">
+            <Typography variant="body1" color='secondary.main'>
               099094726
             </Typography>
           </Box>
           <Box sx={{ display: 'flex', marginBottom: 1 }}>
             <Box sx={{ marginRight: 1 }}>
-              <EmailIcon />
+              <EmailIcon sx={{ color:'primary.light'}}/>
             </Box>
-            <Typography variant="body1">
+            <Typography variant="body1" color='secondary.main'>
               camilafirpo2294@hotmail.com
             </Typography>
           </Box>
           <Box sx={{ display: 'flex', marginBottom: 1 }}>
             <Box sx={{ marginRight: 1 }}>
-              <LocationOnIcon />
+              <LocationOnIcon sx={{ color:'primary.light'}}/>
             </Box>
-            <Typography variant="body1">
+            <Typography variant="body1" color='secondary.main'>
               Malvin, Montevideo
             </Typography>
           </Box>
           <Box sx={{ display: 'flex', marginBottom: 1 }}>
             <Box sx={{ marginRight: 1 }}>
-              <Link href="https://www.linkedin.com/in/camila-firpo/" target="_blank">
+              <Link href="https://www.linkedin.com/in/camila-firpo/" target="_blank" color='primary.light'>
                 <LinkedInIcon />
               </Link>
             </Box>
-            <Link href="https://github.com/camila-firpo" target="_blank">
+            <Link href="https://github.com/camila-firpo" target="_blank" color='primary.light'>
               <GitHubIcon />
             </Link>
           </Box>
           <Box>
             <Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="h6">
+                <Typography variant="h6" color='secondary.light'>
                   Personal profile
                 </Typography>
               </Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="body1">
+                <Typography variant="body1" color='secondary.main'>
                 I am an Information Technologist student who
                 also has 3⁄4 of the Bachelors degree of
                 Economics approved.
@@ -79,12 +80,12 @@ function PersonInfo() {
             </Box>
             <Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="h6">
-                  Habilities
+                <Typography variant="h6" color='secondary.light'>
+                  Habilidades
                 </Typography>                
               </Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="body1">
+                <Typography variant="body1" color='secondary.main'>
                   C, C++, HTML, CSS, SQL, Javascript, React
                 </Typography>
               </Box>

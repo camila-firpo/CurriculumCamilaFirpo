@@ -5,15 +5,15 @@ import Box from '@mui/material/Box';
 function Education() {
 		return (
 			<Box>
-				<Typography variant="h4">Education</Typography>
+				<Typography variant="h4" color="primary">Education</Typography>
 				<Box>
-					<Box sx={{ marginBottom: 1 }}>
+					<Box sx={{ marginBottom: 1, border: 1 }}>
 						<Typography variant="subtitle2">FING-DGETP-UTEC</Typography>
 					</Box>
 					<Box sx={{ marginBottom: 1 }}>
-						<Typography variant="body1">Information Technologist | 2021 - Present</Typography>
+						<Typography variant="body1" color="secondary.dark">Information Technologist | 2021 - Present</Typography>
 						<Box>
-							<Typography variant="body1">
+							<Typography variant="body1" color="secondary.dark">
 							Student of the first year with the first semester
 							completely approved.
 							</Typography>
@@ -21,27 +21,27 @@ function Education() {
 					</Box>
 				</Box>
 				<Box>
-					<Box sx={{ marginBottom: 1 }}>
+					<Box sx={{ marginBottom: 1, border: 1 }}>
 						<Typography variant="subtitle2">UNIVERSIDAD DE LA REPÚBLICA</Typography>
 					</Box>
 					<Box>
-						<Typography variant="body1">Bachelor of Economics | 2014 - Paused</Typography>
+						<Typography variant="body1" color="secondary.dark">Bachelor of Economics | 2014 - Paused</Typography>
 						<Box sx={{ marginBottom: 1 }}>
-							<Typography variant="body1"> 
+							<Typography variant="body1" color="secondary.dark"> 
 								Advanced student with 3⁄4 of the degree approved.
 							</Typography>
 						</Box>
 					</Box>
 				</Box>
 				<Box>
-					<Box sx={{ marginBottom: 1 }}>
+					<Box sx={{ marginBottom: 1, border: 1 }}>
 						<Typography variant="subtitle2">INSTITUTO SUPERIOR DE COMERCIO Y
 							ADMINISTRACIÓN LA BLANQUEADA</Typography>
 					</Box>
 					<Box sx={{ marginBottom: 1 }}>
-						<Typography variant="body1">Accounting Assistant | 2012 - Finalized</Typography>
-						<Typography variant="body1">Administrative Assistant | 2013 - Finalized</Typography>
-						<Typography variant="body1">Directors Assistant | 2013 - Finalized</Typography>
+						<Typography variant="body1" color="secondary.dark">Accounting Assistant | 2012 - Finalized</Typography>
+						<Typography variant="body1" color="secondary.dark">Administrative Assistant | 2013 - Finalized</Typography>
+						<Typography variant="body1" color="secondary.dark">Directors Assistant | 2013 - Finalized</Typography>
 					</Box>
 				</Box>
 			</Box>
