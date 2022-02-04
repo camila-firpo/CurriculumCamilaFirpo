@@ -25,7 +25,7 @@ function PersonInfo() {
           <Box sx={{ marginBottom: 1 }}>
             <Typography variant="h4" color='primary.light'>Camila Firpo </Typography>
           </Box>
-          <Box sx={{ display: 'flex', marginBottom: 1 }}>
+          <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center'}}>
             <Box sx={{ marginRight: 1 }}>
               <LocalPhoneIcon sx={{ color:'primary.light'}}/>
             </Box>
@@ -33,7 +33,7 @@ function PersonInfo() {
               099094726
             </Typography>
           </Box>
-          <Box sx={{ display: 'flex', marginBottom: 1 }}>
+          <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
             <Box sx={{ marginRight: 1 }}>
               <EmailIcon sx={{ color:'primary.light'}}/>
             </Box>
@@ -41,7 +41,7 @@ function PersonInfo() {
               camilafirpo2294@hotmail.com
             </Typography>
           </Box>
-          <Box sx={{ display: 'flex', marginBottom: 1 }}>
+          <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
             <Box sx={{ marginRight: 1 }}>
               <LocationOnIcon sx={{ color:'primary.light'}}/>
             </Box>
@@ -49,7 +49,7 @@ function PersonInfo() {
               Malvin, Montevideo
             </Typography>
           </Box>
-          <Box sx={{ display: 'flex', marginBottom: 1 }}>
+          <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
             <Box sx={{ marginRight: 1 }}>
               <Link href="https://www.linkedin.com/in/camila-firpo/" target="_blank" color='primary.light'>
                 <LinkedInIcon />
