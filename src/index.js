@@ -13,7 +13,6 @@ const theme = createTheme({
     },
     secondary: {
       main:'#bdbdbd', // gris
-      light: '#e0f7fa', // blanco
       dark: '#424242' // gris oscuro
     },
   },

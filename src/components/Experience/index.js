@@ -1,13 +1,19 @@
 import React from 'react';
 import Box from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 
 function Experience() {
         return (
             <Box>
-                <Typography variant="h4" color="primary">Experience</Typography> 
+                <Box sx={{ marginRight: 1, display:'flex' }}>
+                    <Box sx={{ marginRight: 1 }}>
+                        <BusinessCenterIcon sx={{ color:'primary.main'}}/>
+                    </Box>
+                    <Typography variant="h4" color="primary">Experience</Typography> 
+                </Box>
                 <Box>
-                    <Box sx={{ marginBottom: 1, border: 1 }}>
+                    <Box sx={{ marginBottom: 1, bgcolor:"primary.main", color:"primary.light", p: 1 }}>
 					    <Typography variant="subtitle2">ASOCIACION CRISTIANA DE JOVENES</Typography>                        
                     </Box>
                     <Box sx={{ marginBottom: 1 }}>
