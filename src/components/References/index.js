@@ -2,11 +2,17 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import PersonIcon from '@mui/icons-material/Person';
 
 function References() {
     return (
       <Box>
-        <Typography variant="h4" color="primary">Personal references</Typography>
+        <Box sx={{ marginRight: 1, display:'flex' }}>
+          <Box sx={{ marginRight: 1 }}>
+            <PersonIcon sx={{ color:'primary.main'}}/>
+          </Box>
+          <Typography variant="h4" color="primary">Personal references</Typography>
+        </Box>
         <Box>
           <Typography variant="body1" color="secondary.dark">
             Andrea Esquivel - Accountant

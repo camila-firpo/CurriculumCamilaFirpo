@@ -1,13 +1,19 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import SchoolIcon from '@mui/icons-material/School';
 
 function Education() {
 		return (
 			<Box>
-				<Typography variant="h4" color="primary">Education</Typography>
+				<Box sx={{ marginRight: 1, display:'flex', marginTop: 1 }}>
+					<Box sx={{ marginRight: 1 }}>
+						<SchoolIcon sx={{ color:'primary.main'}}/>
+					</Box>
+					<Typography variant="h4" color="primary">Education</Typography>
+				</Box>
 				<Box>
-					<Box sx={{ marginBottom: 1, border: 1 }}>
+					<Box sx={{ marginBottom: 1, bgcolor:"primary.main", color:"primary.light", p: 1 }}>
 						<Typography variant="subtitle2">FING-DGETP-UTEC</Typography>
 					</Box>
 					<Box sx={{ marginBottom: 1 }}>
@@ -21,7 +27,7 @@ function Education() {
 					</Box>
 				</Box>
 				<Box>
-					<Box sx={{ marginBottom: 1, border: 1 }}>
+					<Box sx={{ marginBottom: 1, bgcolor:"primary.main", color:"primary.light", p: 1 }}>
 						<Typography variant="subtitle2">UNIVERSIDAD DE LA REPÚBLICA</Typography>
 					</Box>
 					<Box>
@@ -34,7 +40,7 @@ function Education() {
 					</Box>
 				</Box>
 				<Box>
-					<Box sx={{ marginBottom: 1, border: 1 }}>
+					<Box sx={{ marginBottom: 1, bgcolor:"primary.main", color:"primary.light", p: 1 }}>
 						<Typography variant="subtitle2">INSTITUTO SUPERIOR DE COMERCIO Y
 							ADMINISTRACIÓN LA BLANQUEADA</Typography>
 					</Box>

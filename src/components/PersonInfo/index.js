@@ -13,7 +13,7 @@ function PersonInfo() {
     return (
       <Box sx={{
 			  textAlign: 'center',
-			  height: '100vh',
+			  height: '100%',
 			  bgcolor: 'primary.main',
         typography: 'body1'
       }}
@@ -62,11 +62,11 @@ function PersonInfo() {
           <Box>
             <Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="h6" color='secondary.light'>
+                <Typography variant="h6" color='primary.light'>
                   Personal profile
                 </Typography>
               </Box>
-              <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
+              <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center', padding: 1.5 }}>
                 <Typography variant="body1" color='secondary.main'>
                 I am an Information Technologist student who
                 also has 3⁄4 of the Bachelors degree of
@@ -80,7 +80,7 @@ function PersonInfo() {
             </Box>
             <Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
-                <Typography variant="h6" color='secondary.light'>
+                <Typography variant="h6" color='primary.light'>
                   Habilidades
                 </Typography>                
               </Box>
