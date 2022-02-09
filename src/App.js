@@ -10,7 +10,7 @@ function App() {
         <Grid item xs={12} md={4}>
           <PersonInfo />
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={12} md={8} sx={{bgcolor: "primary.light"}}>
           <Contents />
         </Grid>
       </Grid>
