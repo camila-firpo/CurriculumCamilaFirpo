@@ -21,8 +21,8 @@ function Education() {
 						<Typography variant="subtitle1" color="secondary.dark" sx={{marginBottom: 1}}>Information Technologist | 2021 - Present</Typography>
 						<Box sx={{margin: 1}}>
 							<Typography variant="body1" color="secondary.dark">
-							Student of the first year with the first semester
-							completely approved.
+							Student with the first year
+							completely approved
 							</Typography>
 						</Box>
 					</Box>
@@ -35,7 +35,7 @@ function Education() {
 						<Typography variant="subtitle1" color="secondary.dark" sx={{marginBottom: 1}}>Bachelor of Economics | 2014 - Paused</Typography>
 						<Box sx={{ marginBottom: 1, margin: 1 }}>
 							<Typography variant="body1" color="secondary.dark"> 
-								Advanced student with 3⁄4 of the degree approved.
+								Advanced student with 3⁄4 of the degree approved
 							</Typography>
 						</Box>
 					</Box>
