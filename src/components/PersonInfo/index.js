@@ -69,7 +69,7 @@ function PersonInfo() {
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center', padding: 1.5 }}>
                 <Typography variant="body1" color='secondary.main'>
                 I am an Information Technologist student who
-                also has 3⁄4 of the Bachelors degree of
+                also has 3⁄4 of the Bachelor&apos;s degree of
                 Economics approved.
                 I am Currently looking for my first work
                 experience in the IT sector. I consider myself
@@ -81,7 +81,7 @@ function PersonInfo() {
             <Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
                 <Typography variant="h6" color='primary.light'>
-                  Habilidades
+                  Skills
                 </Typography>                
               </Box>
               <Box sx={{ display: 'flex', marginBottom: 1, justifyContent: 'center' }}>
