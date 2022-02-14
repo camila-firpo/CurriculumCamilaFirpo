@@ -7,32 +7,18 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-// import Slide from '@mui/material/Slide';
-// import Fade from '@mui/material/Fade';
-// import Zoom from '@mui/material/Zoom';
-// import VisibilitySensor from 'react-visibility-sensor';
 
 function Experience() {
-  // const [visible, setVisible] = useState(false);
-
-  // const onChange = (isVisible) => {
-  //   console.log('Entra onChange', visible);
-  //   if (!visible) {
-  //     setVisible(isVisible);
-  //   }
-  // };
-
   return (
-    // <VisibilitySensor onChange={onChange} partialVisibility>
-    //   <Box sx={{ minHeight: 200 }}>
-    //     <Zoom in={visible}>
     <Card variant="outlined" sx={{ my: 3 }}>
-      <Box sx={{ marginRight: 1, display: 'flex', marginTop: 1 }}>
+      <Box
+        sx={{ marginRight: 1, display: 'flex', marginTop: 2, marginLeft: 2 }}
+      >
         <Box sx={{ marginRight: 1, padding: 0.5 }}>
           <BusinessCenterIcon sx={{ color: 'primary.main' }} />
         </Box>
         <Typography variant="h4" color="primary">
-          Experience
+          Work experience
         </Typography>
       </Box>
       <Box>
@@ -126,9 +112,6 @@ function Experience() {
         </Box>
       </Box>
     </Card>
-    //     </Zoom>
-    //   </Box>
-    // </VisibilitySensor>
   );
 }
 export default Experience;
