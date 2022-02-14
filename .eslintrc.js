@@ -19,8 +19,13 @@ module.exports = {
     'prettier'
   ],
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-
-    // "linebreak-style": ['error', 'unix'],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-no-bind": [1, {
+      "ignoreDOMComponents":  true,
+      "ignoreRefs": true,
+      "allowArrowFunctions":  true,
+      "allowFunctions":  true,
+      "allowBind": true
+    }]
   },
 };
