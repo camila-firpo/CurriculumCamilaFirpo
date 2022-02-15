@@ -104,10 +104,11 @@ function PersonInfo() {
             >
               <Typography variant="body1" color="secondary.main">
                 I am an Information Technologist student who also has 3⁄4 of the
-                Bachelor&apos;s degree of Economics approved. I am Currently
-                looking for my first work experience in the IT sector. I
+                Bachelor&apos;s degree of Economics approved. Currently looking
+                for my first work experience in the IT sector, as a developer. I
                 consider myself to be responsible, with good disposition and
                 eager to learn new things.
+                
               </Typography>
             </Box>
           </Box>
